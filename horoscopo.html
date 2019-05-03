@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Horoscopo del dia - Scout</title>
+    <link rel="stylesheet" href="css-scout/horoscopo.css">
+    <script src="js-scout/utilitarios.js"></script>
+</head>
+
+<body>
+    <h1 class="titulo">Ejercicios con JS </h1>
+    <script src="js-scout/horoscopo.js"></script>
+
+    <div>
+        <div id="contenedor">
+            <article id="uno">
+                <h1 id="ejemplo">En este párrafo se mostrará la opción clickada por el usuario</h1>
+                <br>
+                <a class="button" onclick="alerta()">Clicka para modificar nombre</a>
+            </article>
+            <article id="dos">
+                <h1>Quieres saber tu signo? </h1>
+                <br>
+                <div>
+                    <a class="button" onclick="horoscopo()">Click para ver tu horoscopo</a>
+                    <br>
+                    <h1>Hola, tu signo es</h1>
+                    <br>
+                    <h1 id="signo">?????</h1>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer>
+            <div id="reloj"> 00:00:00</div>
+            
+            <span class="links"><a href="scout.html">Ir a la anterior Página (Scouts) </a></span>
+    </footer>
+</body>
+
+
+</html>

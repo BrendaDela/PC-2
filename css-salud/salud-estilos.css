@@ -1,0 +1,184 @@
+#efeSalud {
+    background-color: DeepSkyBlue;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+
+  p {
+    color: MidnightBlue solid 10px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  table {
+    border-spacing: 15px;
+  }
+
+  a:link,
+  a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: Ir a la siguiente P�gina;
+  }
+
+  a:hover,
+  a:active {
+    background-color: red;
+    align-content: center
+  }
+  html, body {
+    background-color: #ffeead;
+    margin: 10px;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'PT Sans', sans-serif;
+}
+h2{
+  color: #0093CF;
+  padding: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #6b0fc7;
+}
+h3 {
+  color: #0093CF;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #6b0fc7;
+
+}
+/*
+nav a{
+    margin: 10px;
+} */
+
+.navegacion{
+	width: 100%;
+	margin: 0px auto;
+    /* background: #622599; */
+    display: flex;
+    border: 1px solid blue;
+    /* flex-flow: column wrap */
+justify-content: center;
+flex-direction: row
+}
+
+/* .navegacion ul{
+    list-style: none;
+}*/
+.menu > li{
+	position: relative;
+    display: inline-block;
+    align-content: center
+    center;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #ffffff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #6b0fc7;
+	transition: all .3s;
+}
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+  html, body {
+    background-color: #ffeead;
+    margin: 20px;
+  }
+
+  /*flexbox*/
+  .flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center
+  }
+
+  .box {
+    width: 250px;
+    height: 330px;
+    margin: 10px;
+    border: 2px solid red;
+    flex-shrink: 1;
+  }
+  .box > img, .box > a {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box2{
+    width: 150px;
+    border: 1px solid orange;
+    align-self: center;
+
+  }
+  .plus{
+    width: 20px;
+    height: 50px;
+    margin: 1px;
+    border: 1px solid blue;
+    align-self: center
+  }
+
+  .fa-plus, .fa-equals{
+    font-size: 3.73em !important;
+    color:#003846 !important;
+  }
+
+  .contenido > section{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid lightseagreen
+  }
+  footer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid slateblue
+  }
+  aside{
+  border-top: 1px dotted #999;
+  padding-top: 12px;
+  margin-top: 0;
+  }
