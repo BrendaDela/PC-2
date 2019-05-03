@@ -14,7 +14,7 @@ function actual() {
     hora = fecha.getHours(); //hora actual
     minuto = fecha.getMinutes(); //minuto actual
     segundo = fecha.getSeconds(); //segundo actual
-    dia = diasSemana[fecha.getDay()];
+    dia = diasSemana[fecha.getDay()];//hola
     numero = fecha.getDate();
     mes =  meses[fecha.getMonth()];
     anio = fecha.getFullYear();
